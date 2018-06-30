@@ -1,6 +1,6 @@
 {
-  "name": "mdb-vue-admin-template",
-  "version": "4.0.0",
+  "name": "delbium-website",
+  "version": "0.0.1",
   "description": "MDB Admin Dashboard",
   "author": "MDBootstrap <support@mdbootstrap.com>",
   "scripts": {
