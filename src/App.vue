@@ -5,15 +5,16 @@
       <navbar-collapse>
         <navbar-nav right>
           <router-link to="/dashboard" @click.native="activeItem = 1"><navbar-item href="" waves-fixed active>Home</navbar-item></router-link>
-          <navbar-item href="https://mdbootstrap.com/vue/vue-bootstrap-getting-started/" waves-fixed>Products</navbar-item>
-          <navbar-item href="https://mdbootstrap.com/vue/vue-bootstrap-getting-started/" waves-fixed>Innovations</navbar-item>
-          <navbar-item href="https://mdbootstrap.com/bootstrap-tutorial/" waves-fixed>Resources</navbar-item>
-          <navbar-item href="https://mdbootstrap.com/bootstrap-tutorial/" waves-fixed>About us</navbar-item>
-        </navbar-nav>
-        <!-- <navbar-nav right >
+          <navbar-item href="#" waves-fixed>Products</navbar-item>
+          <navbar-item href="#" waves-fixed>Innovations</navbar-item>
+          <navbar-item href="#" waves-fixed>Resources</navbar-item>
+          <navbar-item href="#" waves-fixed>About us</navbar-item>
+          <form class="form-inline">
+            <input class="form-control mr-auto p-2" type="text" placeholder="Search" aria-label="Search">
+          </form>
           <navbar-item href="#!" waves-fixed><fa class="text-black" icon="facebook"/></navbar-item>
           <navbar-item href="#!" waves-fixed><fa icon="twitter"/></navbar-item>
-        </navbar-nav> -->
+        </navbar-nav>
       </navbar-collapse>
     </navbar>
     <!--/.Navbar-->
@@ -22,7 +23,7 @@
         <router-view></router-view>
       </div>
       <ftr color="primary-color-dark" class="text-center font-small darken-2">
-        <div class="pt-4">
+        <div class="pt-2">
           <btn outline="white" tag="a" href="#" target="_blank">Contact us<fa icon="address-card" class="ml-2"/></btn>
           <btn outline="white" tag="a" href="https://mdbootstrap.com/bootstrap-tutorial/" target="_blank">Newsletter<fa icon="envelope" class="ml-2"/></btn>
         </div>
